@@ -1,0 +1,155 @@
+
+#container{
+    border:lightyellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:10px;
+    display: flex;
+    background-color:rgb(211, 204, 204);
+}
+#header{
+    justify-content: center;
+    display: flex;
+}
+#header button{
+    border-radius: 7px;
+    background-color:yellow;
+    height:50px;
+    width:250px;
+    margin:10px;
+    cursor: pointer;
+    border-color:darkslategrey;
+}
+#breadCrumb{
+    border:1px solid black;
+    border-radius: 12px;
+    display:flex;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+a[purpose='path']{
+    border-radius: 8px;
+    background-color:grey;
+    border:1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-right: 3px solid black;
+}
+.folder{
+    background-color:purple;
+    border: 2px solid rgb(105, 103, 103);
+    border-radius: 5px;
+    height:140px;
+    width:155px;
+    margin:20px;
+    font-size: 20px;
+}
+.text-file{
+    background-color:lightpink;
+    border: 2px solid rgb(105, 103, 103);
+    border-radius: 5px;
+    height:140px;
+    width:155px;
+    margin:20px;
+    font-size: 20px;
+}
+.folder [action]{
+    cursor: pointer;
+    padding-left: 8px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-file [action]{
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 15px;
+    color:grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div [purpose=name]{
+    margin-top: 3px;
+    text-align: center;
+    word-wrap: break-word;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#img_folder{
+    margin-left: 21;
+    margin-top: 5;
+}
+#img_text-file{
+    margin-left: 32;
+    margin-top: 5;
+}
+
+#app{
+    border: 3px solid rgb(95, 95, 95);
+    margin: 10px;
+}
+
+#app-title-bar {
+    display: flex;
+    height: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#app-title {
+    width: 93%;
+    text-align: center;
+}
+
+.material-icons{
+    border:1px solid black;
+    cursor:pointer;
+}
+
+#app-menu-bar {
+    display: flex;
+    background-color:grey;
+    border-top: 3px solid rgb(95, 95, 95);
+    height: 40px;
+}
+
+#app-body {
+    display: flex;
+    background-color:gainsboro;
+    height: 500px;
+}
+
+.notepad-menu{
+    width: 100%;
+    padding: 5px;
+}
+
+.notepad-menu * {
+    margin: 0px 5px;
+    padding: 2px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.notepad-menu span {
+    vertical-align: bottom;
+}
+
+
+.notepad-menu input[type=color] {
+    width: 30px;
+}
+
+.notepad-menu select {
+    height: 30px;
+}
+
+.notepad-body {
+    height: 100%;
+    width: 100%;
+}
+
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+}
